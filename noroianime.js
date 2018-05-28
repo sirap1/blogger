@@ -1,2 +1,21 @@
-("https://noroianime.blogspot.co.id/feeds/posts/default?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=6",'window1',)
-  
+function selectText(element) {
+	// select the text
+    // thank you: http://stackoverflow.com/questions/18611992/selected-text-inside-div
+    var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+    ;
+    
+    if (doc.body.createTextRange) { //ms
+        range = doc.body.createTextRange();
+        range.moveToElementText(text);
+        range.select();
+        
+    } else if (window.getSelection) { //all others
+        selection = window.getSelection();        
+        range = doc.createRange();
+        range.selectNodeContents(text);
+        selection.removeAllRanges();
+        selection.addRange(range);
+    }
+};
