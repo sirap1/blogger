@@ -7,7 +7,7 @@ var myDays = [
 '<i class="fa fa-caret-square-o-right"></i>Selasa <i class="fa fa-caret-square-o-right"></i><br/>-<br/>-<br/>-', 
 '<i class="fa fa-caret-square-o-right"></i>Rabu <i class="fa fa-caret-square-o-right"></i><br/><div class="varis">-</div><div class="varis">-</div><div class="varis">Boruto: Naruto Next Generations</div><div class="varis">-</div>', 
 '<i class="fa fa-caret-square-o-right"></i>Kamis <i class="fa fa-caret-square-o-right"></i><br/><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div>', 
-'<i class="fa fa-caret-square-o-right"></i>Jum"at <i class="fa fa-caret-square-o-right"></i><br/><div class="varis">anjing</div><div class="varis">wanjing</div>', 
+'►Jum"at<br/><div class="varis">anjing</div><div class="varis">wanjing</div>', 
 '<i class="fa fa-caret-square-o-right"></i>Sabtu <i class="fa fa-caret-square-o-right"></i><br/><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div><div class="varis">-</div>'];
 var date = new Date();
 var day = date.getDate();
