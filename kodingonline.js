@@ -84,7 +84,7 @@ function showFrameSize() {
   var width, height;
   width = Number(cdx_getStyleValue(document.getElementById("iframeResult"), "width").replace("px", "")).toFixed();
   height = Number(cdx_getStyleValue(document.getElementById("iframeResult"), "height").replace("px", "")).toFixed();
-  document.getElementById("framesize").innerHTML = "Panel Boyutu: <span>" + width + " x " + height + "</span>";
+  document.getElementById("framesize").innerHTML = "Ukuran Panel: <span>" + width + " x " + height + "</span>";
 }
 var dragging = false;
 var stack;
